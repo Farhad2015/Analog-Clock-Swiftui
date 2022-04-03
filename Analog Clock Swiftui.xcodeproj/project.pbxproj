@@ -12,6 +12,8 @@
 		5181AB0C27F971DC001E8E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5181AB0B27F971DC001E8E42 /* Assets.xcassets */; };
 		5181AB0F27F971DC001E8E42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5181AB0E27F971DC001E8E42 /* Preview Assets.xcassets */; };
 		5181AB1627F97C8B001E8E42 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181AB1527F97C8B001E8E42 /* CurrentTime.swift */; };
+		5181AB1827F98937001E8E42 /* ClockTickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181AB1727F98937001E8E42 /* ClockTickerModel.swift */; };
+		5181AB1B27F98DB3001E8E42 /* ClockShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5181AB1A27F98DB3001E8E42 /* ClockShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5181AB0B27F971DC001E8E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5181AB0E27F971DC001E8E42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5181AB1527F97C8B001E8E42 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		5181AB1727F98937001E8E42 /* ClockTickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTickerModel.swift; sourceTree = "<group>"; };
+		5181AB1A27F98DB3001E8E42 /* ClockShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +57,11 @@
 		5181AB0627F971DB001E8E42 /* Analog Clock Swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				5181AB1927F98D3D001E8E42 /* ClockUtils */,
 				5181AB0727F971DB001E8E42 /* Analog_Clock_SwiftuiApp.swift */,
 				5181AB0927F971DB001E8E42 /* ContentView.swift */,
 				5181AB0B27F971DC001E8E42 /* Assets.xcassets */,
 				5181AB0D27F971DC001E8E42 /* Preview Content */,
-				5181AB1527F97C8B001E8E42 /* CurrentTime.swift */,
 			);
 			path = "Analog Clock Swiftui";
 			sourceTree = "<group>";
@@ -68,6 +72,16 @@
 				5181AB0E27F971DC001E8E42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5181AB1927F98D3D001E8E42 /* ClockUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5181AB1727F98937001E8E42 /* ClockTickerModel.swift */,
+				5181AB1527F97C8B001E8E42 /* CurrentTime.swift */,
+				5181AB1A27F98DB3001E8E42 /* ClockShape.swift */,
+			);
+			path = ClockUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5181AB1827F98937001E8E42 /* ClockTickerModel.swift in Sources */,
 				5181AB1627F97C8B001E8E42 /* CurrentTime.swift in Sources */,
 				5181AB0A27F971DB001E8E42 /* ContentView.swift in Sources */,
 				5181AB0827F971DB001E8E42 /* Analog_Clock_SwiftuiApp.swift in Sources */,
+				5181AB1B27F98DB3001E8E42 /* ClockShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
