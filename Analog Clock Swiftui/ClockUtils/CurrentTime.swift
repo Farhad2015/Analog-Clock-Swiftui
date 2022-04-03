@@ -12,7 +12,7 @@ import Combine
 final class CurrentTime: ObservableObject {
     @Published var seconds: TimeInterval = CurrentTime.currentSecond(date: Date())
     
-    private let timer = Timer.publish(every: 0.2, on: .main, in: .default).autoconnect()
+    private let timer = Timer.publish(every: 0.05, on: .main, in: .default).autoconnect()
     private var store = Set<AnyCancellable>()
     
     init(){
